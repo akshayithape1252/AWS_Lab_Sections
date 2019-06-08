@@ -2,7 +2,7 @@
 In this lab section we are going to launch EC2 with userdata. First Userdata is one of the configuration parameter which we will be set during EC2 configuration. It is optional parameter for EC2 configuration. 
 
 ## What Is Userdata
-In userdata you can define set of commands or data or any script which will be provide to a EC2 instance at launch time.
+In userdata you can define set of commands or data or any script which will be provide to a EC2 instance at launch time. By default, User data script and cloud-init directives run only during the boot cycle when you first launch an instance.
 
 ## Example Of Userdata
 Consider the example, we want to install Nginx Server on EC2 instance at launch time. Simply we define nginx install commands in Userdata while configuring EC2 instance. Simply put following two lines in user data.
